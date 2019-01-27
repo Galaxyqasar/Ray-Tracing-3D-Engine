@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="C-Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/C-Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/C-Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=i386" />
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="LevelSystem/levels.h" />
+		<Unit filename="Physics/physics.h" />
+		<Unit filename="RayTracer/3dobjects.h" />
+		<Unit filename="RayTracer/camera.h" />
+		<Unit filename="RayTracer/color.h" />
+		<Unit filename="RayTracer/functions.h" />
+		<Unit filename="RayTracer/image.h" />
+		<Unit filename="RayTracer/light.h" />
+		<Unit filename="RayTracer/ray.h" />
+		<Unit filename="RayTracer/rayTracer.h" />
+		<Unit filename="RayTracer/scene.h" />
+		<Unit filename="RayTracer/vector.h" />
+		<Unit filename="eventSystem.h" />
+		<Unit filename="header.h" />
+		<Unit filename="inputSystem.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mouse.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
